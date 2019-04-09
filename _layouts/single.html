@@ -1,5 +1,6 @@
 ---
 layout: default
+
 ---
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
@@ -26,12 +27,23 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% for category in page.categories %}
+            <h2 id="page__category">
+              <a href="/categories/{{ category | slugify }}">{{ category }}</a>
+            </h2>
+          {% endfor %}
+          {% if page.title %}
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}
+          </h1>
+          {% endif %}
+        
           {% if page.read_time %}
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
         </header>
       {% endunless %}
+
 
       <section class="page__content" itemprop="text">
         {% if page.toc %}
