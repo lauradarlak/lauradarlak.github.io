@@ -1,12 +1,15 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
+  - title: "Resume"
+    url: "/assets/ldarlak-resume.pdf"
   - title: "Portfolio"
     url: /portfolio/
+  - title: "About"
+    url: /about/
   - title: "Writing"
     url: /blog/
-  - title: "Contact Me"
+  - title: "Contact"
     url: /contact/
+
   # - title: "Sitemap"
   #   url: /sitemap/

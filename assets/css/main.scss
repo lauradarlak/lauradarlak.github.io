@@ -91,3 +91,13 @@
     list-style-type: none;
     padding-inline-start: 0;
   }
+
+  .stack {
+    display: none;
+  }
+
+  @media (min-width: 1024px) {
+    .stack {
+      display: inline;
+    }
+  }

@@ -110,6 +110,7 @@ author:
   avatar           : "/assets/images/bio-photo.png"
   bio              : "Full Stack Web Developer and practitioner of simple living."
   subtext          : "Sun in Sagittarius with Virgo Rising."
+  resume           : #"/assets/ldarlak-resume.pdf"
   location         : "Ithaca, NY"
   # email            : "lauradarlak@gmail.com"
   links:

@@ -42,7 +42,9 @@
         <strong>{{ author.subtext }}</strong>
       </p>
     {% endif %}
-
+    {% if author.resume %}
+    <a class="btn btn--warning" href="{{ author.resume }}">Resume</a>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">

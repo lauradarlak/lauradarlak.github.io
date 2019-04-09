@@ -12,6 +12,7 @@
         {% endif %}
         alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
       {% endif %}
+      <div class="stack">
       {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
       {% if s.stack %}
         <ul class="stack-icons">
@@ -25,6 +26,7 @@
         {% endfor %}
         </ul>
       {% endif %}
+      </div>
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
       {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
     {% endfor %}
