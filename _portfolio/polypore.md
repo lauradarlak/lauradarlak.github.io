@@ -32,28 +32,10 @@ gallery:
 ---
 ***
 
-**Polypore Design** provides custom web development to small businesses with a heart. We will guide you through a collaborative design process that translates your ideas, desires, and creativity into your website. Our goal is to be a source of support for you, ensuring that your website works for your business as a tool that will help you realize your greatest potential.
+**Polypore Design** provides custom web development for small businesses. We seek to create authentic and collaborative relationships with our clients; each project is a mutual investment in promoting or building a business or service that serves society and the environment.
 
-+ WordPress Integration: A user-friendly content management system that allows you to easily update your website.
-+ Web Design: Clean, modern websites with well-organized information and a style that reflects you.
-+ Ongoing Maintenance: Timely updates, backups, and security checks to keep your site running smoothly.
-
-<!-- ![Johnson Estate](/assets/images/projects/ppd-johnson.jpg "Johnson Estate Winery")
-
-___
-
-![Renee Jennings](/assets/images/projects/ppd-jennings.jpg "Renee Jennings")
-
-___
-
-![The Mentoring Alliance](/assets/images/projects/ppd-tma.jpg "The Mentoring Alliance")
-
-___
-
-![Urban Insulation Corp](/assets/images/projects/ppd-urban.jpg "Urban Insulation Corp")
-
-___
-
-![Everybody Knows Ron](/assets/images/projects/ppd-ron.jpg "Everybody Knows Ron") -->
++ Develop and customize WordPress themes
++ Provide managed hosting and ongoing maintenance, including timely updates, backups, and security checks
++ Offer content management and content creation
 
 {% include gallery caption="Gallery of Polypore Design WordPress Development" %}

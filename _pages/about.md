@@ -24,7 +24,7 @@ With experience in Ruby on Rails, JavaScript, React, and WordPress theme develop
 
 My journey from gerontology to web development was filled with many exciting adventures, including:
 
-Traveling in vintage Toyota motorhome
+Traveling in a vintage Toyota motorhome
 ------
 ![Palm Canyon, AZ](/assets/images/home-banner-palm-canyon.jpg "Palm Canyon, AZ")
 
