@@ -20,7 +20,7 @@ title                    : "lauradarlak.dev"
 title_separator          : "-"
 name                     : "Laura Darlak"
 description              : ""
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://lauradarlak.dev
 baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
