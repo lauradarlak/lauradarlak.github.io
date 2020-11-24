@@ -1,44 +1,646 @@
----
-layout: splash
-title: "Hi, I'm Laura Darlak."
-excerpt: 'I am a **Full Stack Web Developer** dedicated to building web apps that support **_social_** and **_ecological_** entrepreneurs in achieving their goals.'
-header:
-  overlay_image: /assets/images/space-background2.png
-  overlay_filter: 0.4 # same as adding an opacity of 0.5 to a black background
-  caption: "vectors by [www.vecteezy.com](https://www.vecteezy.com)"
-  actions:
-    - label: "View Resume"
-      url: "/assets/ldarlak-resume.pdf"
-intro:
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin.'
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Laura Darlak - Web Developer / Mentor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Laura Darlak - Web Developer / Mentor" />
+    <link rel="shortcut icon" href="favicon.ico">
 
-feature_row2:
-  - image_path: /assets/images/018-solar-system.png
-    alt: "Solar System"
-    title: "Portfolio"
-    excerpt: 'A selection of work by my web development business, **Polypore Design**, and web applications completed
-    at the **Flatiron School**.'
-    url: "/portfolio"
-    btn_label: "Browse Work"
-    btn_class: "btn--warning"
-feature_row3:
-  - image_path: /assets/images/013-ufo-1.png
-    alt: "UFO"
-    title: "Writing"
-    excerpt: 'An attempt to chronical my journey through the web development worm hole. Topics include **Rails**, **Portfolio Projects**, **Ruby**, and **Women in Tech**'
-    url: "/blog"
-    btn_label: "Read More"
-    btn_class: "btn--warning"
-feature_row4:
-  - image_path: /assets/images/011-astronaut-1.png
-    alt: "Astronaut"
-    title: "About Laura"
-    excerpt: "My interdimensional adventures include traveling cross-country in a vintage motorhome, raising chickens, and living in an off-grid cottage in rural Cane-tuck-ee."
-    url: "/about"
-    btn_label: "Learn More"
-    btn_class: "btn--warning"
----
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
 
-{% include feature_row id="feature_row4" type="left" %}
-{% include feature_row id="feature_row2" type="right" %}
-{% include feature_row id="feature_row3" type="left" %}
+    <script src="js/modernizr.custom.js"></script>
+  </head>
+
+  <body>
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div id="page" class="page one-page-style">
+      <!-- Header -->
+      <header id="site_header" class="header mobile-menu-hide">
+        <div class="header-content clearfix">
+          <div class="my-photo">
+            <img src="home.png" alt="image">
+          </div>
+
+          <div class="site-title-block">
+            <div class="site-title">Laura Darlak</div>
+          </div>
+
+          <!-- Navigation -->
+          <div class="site-nav">
+            <!-- Main menu -->
+            <ul id="nav" class="site-main-menu">
+              <li>
+                <a class="pt-trigger" href="#about-me">About Me</a><!-- href value = data-id without # of .pt-page. -->
+              </li>
+              <li>
+                <a class="pt-trigger" href="#resume">Resume</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <!-- /Main menu -->
+          </div>
+          <!-- Navigation -->
+
+          <!-- Social Links -->
+          <div class="social-links">
+            <a href="https://wordpress.org/support/users/simpleliving/replies/" target="_blank"><i class="fab fa-wordpress"></i></a>
+            <a href="https://www.linkedin.com/in/lauradarlak/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/lauradarlak" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+          <!-- / Social Links -->
+
+          <!-- Copyrights -->
+          <div class="copyrights">© 2020 All rights reserved.</div>
+          <!-- / Copyrights -->
+        </div>
+      </header>
+      <!-- /Header -->
+
+      <!-- Mobile Header -->
+      <div class="mobile-header mobile-visible">
+        <div class="mobile-logo-container">
+          <div class="mobile-header-image">
+            <a href="#">
+                <img src="home.png" alt="image">
+            </a>
+          </div>
+          <div class="mobile-site-title"><a href="#">Laura Darlak</a></div>
+        </div>
+
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- /Mobile Header -->
+
+      <!-- Arrows Nav -->
+      <div class="lmpixels-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
+      <!-- /Arrows Nav -->
+
+      <!-- Main Content -->
+      <div id="main" class="site-main">
+        <!-- Page changer wrapper -->
+        <div class="pt-wrapper">
+          <!-- Subpages -->
+          <div class="subpages">
+
+            <!-- Home Subpage -->
+            <section class="pt-page" id="about-me">
+              <div class="section-inner start-page-full-width">
+                <div class="start-page-full-width">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="inner-content">
+                          <div class="fill-block"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                      <div class="inner-content">
+                        <div class="hp-text-block">
+                          <!-- Text rotation / Subtitle -->
+                          <div class="owl-carousel text-rotation">                                    
+                            <div class="item">
+                              <div class="sp-subtitle">Web Developer</div>
+                            </div>
+                            <div class="item">
+                              <div class="sp-subtitle">Mentor</div>
+                            </div>
+                            <div class="item">
+                              <div class="sp-subtitle">Fly Fisher</div>
+                            </div>
+                          </div>
+                          <!-- /Text rotation / Subtitle -->
+
+                          <h2 class="hp-main-title">Laura Darlak</h2>
+                          <p>Hi there! I am a WordPress Developer and practitioner of simple living. I started developing custom WordPress themes in 2017 after leaving a career in applied gerontological research. I have since graduated from the Flatiron School’s Full Stack Web Developer Program and work at a fast-paced web development agency.</p>
+                          <p>I am interested in creating organizational culture that supports team members in actualizing their most fulfilling work and personal life. What I enjoy most about Web Development is the opportunity to use my technical knowledge in service to those who are committed to creating the greatest good for all.</p>
+                    
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="section-inner custom-page-content">
+                <div class="page-content">
+                  <!-- Services Block Title -->    
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="col-inner">
+                        <div class="block-title">
+                            <h3>How I Work</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /Services Block Title -->  
+
+                  <!-- Services Block -->  
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="col-inner">
+                        <div class="info-list-w-icon">
+                          <!-- Service Item 1 -->
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-bubble"></i>
+                            </div>
+                            <div class="ci-text">
+                              <h4>Client Facing Web Developer</h4>
+                              <p>I work as a bridge between Project Managers and clients by communicating technical approaches and solutions in a way that ensures everyone is on the same page.</p>
+                            </div>
+                          </div>
+                          <!-- /Service Item 1 -->
+
+                          <!-- Service Item 2 -->
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-location"></i>
+                            </div>
+                            <div class="ci-text">
+                              <h4>Mentorship</h4>
+                              <p>I enjoy working with new developers to help craft their troubleshooting skills and support their professional development.</p>
+                            </div>
+                          </div>
+                          <!-- Service Item 2 -->
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="col-inner">
+                        <div class="info-list-w-icon">
+                          <!-- Service Item 3 -->
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-pencil"></i>
+                            </div>
+                            <div class="ci-text">
+                              <h4>Strategic Perspective</h4>
+                              <p>I'm interested in the long game. As a strategic thinker, I anticipate future outcomes and am always on the lookout for ways to reduce process gaps.</p>
+                              <p> </p>
+                            </div>
+                          </div>
+                          <!-- Service Item 3 -->
+
+                          <!-- Service Item 4 -->
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-sync"></i>
+                            </div>
+                            <div class="ci-text">
+                              <h4>Honesty and Transparency</h4>
+                              <p>I believe in radical candor and creating organizational cultures of feedback.</p>
+                            </div>
+                          </div>
+                          <!-- Service Item 4 -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /Services Block -->
+
+              </div>
+            </section>
+            <!-- End of Home Subpage -->
+
+            <!-- Resume Subpage -->
+            <section class="pt-page" id="resume">
+              <div class="section-inner custom-page-content">
+                <div class="section-title-block second-style">
+                  <h2 class="section-title">Resume</h2>
+                </div>
+
+                <div class="section-content">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-8">
+                      <div class="col-inner bs-30">
+                        <div class="block-title">
+                            <h3>Education</h3>
+                        </div>
+
+                        <div class="timeline timeline-second-style bs-30 clearfix">
+                          <div class="timeline-item clearfix">
+                            <div class="left-part">
+                              <h5 class="item-period">2019</h5>
+                              <span class="item-company">Flatiron School</span>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right-part">
+                              <h4 class="item-title">Full Stack Web Developer Program</h4>
+                              <p>Facebook Breakthrough Finalist Scholarship Recipient</p>
+                              <p class="mb-0"><strong>Key Project:</strong> earlybird.io | <a href="https://earlybird-app.herokuapp.com/" target="_blank">Heroku Demo</a> | <a href="https://github.com/lauradarlak/early-bird" target="_blank">GitHub</a></p>
+                              <p>A shopping cart feature for a farmers market ecommerce platform that persists data to a Rails API backend and responds to and modifies state change on the frontend with React and Redux. Dynamic RESTful routing achieved with React Router.
+                               </p>
+                            </div>
+                          </div>
+
+                          <div class="timeline-item clearfix">
+                            <div class="left-part">
+                              <h5 class="item-period">2010</h5>
+                              <span class="item-company">Ithaca College</span>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right-part">
+                              <h4 class="item-title">BA Aging Studies and Journalism</h4>
+                              <p class="mb-0">Graduated Cum Laude</p>
+                              <p>Ithaca College Gerontology Academic Achievement Award Recipient</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="block-title">
+                            <h3>Experience<span></span></h3>
+                        </div>
+
+
+                        <div class="timeline timeline-second-style clearfix">
+                          <h3 class="company-header">StudioLabs</h3>
+                          <div class="timeline-item clearfix">
+                            <div class="left-part">
+                              <h5 class="item-period">Aug 2020 – Present</h5>
+                              <span class="item-company">Buffalo, NY</span>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right-part">
+                              <h4 class="item-title">Web Developer II/Organizational Development Coordinator</h4>
+                              <p>My dual roles allow me to maintain my technical chops while improving the well-being and training of our team as we grow.</p>
+                            </div>
+                          </div>
+
+                          <div class="timeline-item clearfix">
+                            <div class="left-part">
+                              <h5 class="item-period">June 2019 - August 2020</h5>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right-part">
+                              <h4 class="item-title">Web Developer I</h4>
+                              <ul>
+                                <li><p>Translate comprehensive PSDs into responsive custom WordPress themes and templates.</p></li>
+                                <li><p>Provide maintainence and ongoing support for custom WordPress themes, including legacy codebases.</p></li>
+                                <li><p>Generate timing estimates necessary for pitching new business and project scoping.</p></li>
+                              </ul>
+                            </div>
+                          </div>
+                          
+                          <h3 class="company-header mt-4">Polypore Design LLC</h3>
+                          <div class="timeline-item clearfix">
+                            <div class="left-part">
+                              <h5 class="item-period">2017 - Present</h5>
+                              <span class="item-company">Buffalo, NY</span>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right-part">
+                              <h4 class="item-title">Freelance Web Developer</h4>
+                              <p>I provide web development services to a portfolio of socially and ecologically responsible small businesses and solo-prenuers, including custom WordPress development, ongoing maintenance and support, hosting and security monitoring.</p>
+                            </div>
+                          </div>
+
+                          <h3 class="company-header mt-4">A Great Adventure</h3>
+                          <div class="timeline-item clearfix">
+                            <div class="left-part">
+                              <h5 class="item-period">2015 - 2019</h5>
+                              <span class="item-company">Ithaca, NY | SE Ohio | Southern KY</span>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right-part">
+                              <!-- <h4 class="item-title">Freelance Web Developer</h4> -->
+                              <p>My journey from gerontology to web development was filled with many exciting adventures, including: <a href="https://www.youtube.com/embed/I0OjIroKFKg" class="lightbox mfp-iframe" title="A Great Adventure">Traveling in a vintage Toyota motorhome</a>, working on a pastured turkey farm, <a href="https://contemplativecaregiving.com/" target="_blank">caregiving for older adults</a>, leading brewery tours, <a class="lightbox" title="Blue Rock Station Philo, OH" href="images/bluerock.jpg">and living on a goat farm</a>. </p>
+                              
+                            </div>
+                          </div>
+
+                          <h3 class="company-header mt-4">Benjamin Rose Institute on Aging</h3>
+                          <div class="timeline-item clearfix">
+                            <div class="left-part">
+                              <h5 class="item-period">2011 - 2014</h5>
+                              <span class="item-company">Cleveland, OH</span>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right-part">
+                              <h4 class="item-title">Research Assistant</h4>
+                              <ul>
+                                <li><p>Recruited participants to the evidence-based intervention BRI Care Consultation, and collected study data through structured telephone interviews with veterans with cognitive impairments and their family caregivers.</p></li>
+                                <li><p>Disseminated research findings at <a href="http://oage.org/best-conference-theme-of-the-year/" target="_blank">conferences</a> and through a peer-reviewed journal <a href="https://journals.sagepub.com/doi/abs/10.1177/0733464815624148" target="_blank">publication</a>.</p></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4">
+                      <div class="col-inner">
+
+                        <div class="block-title">
+                          <h3 class="mb-2"><span>CliftonStrengths Profile</span></h3>
+                          <a class="mb-2 d-block" href="gallup-signature-theme.pdf" target="_blank">Signature Theme Report</a>
+                        </div>
+
+                        <div class="skills-info skills-second-style">
+                          <!-- Skill 1 -->
+                          <div class="clearfix mb-2">
+                            <h4>Empathy</h4>
+                            <p>People exceptionally talented in the Empathy theme can sense other people’s feelings by
+                              imagining themselves in others’ lives or situations.</p>
+                          </div>
+                          <!-- /Skill 1 -->
+
+                          <!-- Skill 2 -->
+                          <div class="clearfix mb-2">
+                            <h4>Connectedness</h4>
+                            <p>People exceptionally talented in the Connectedness theme have faith in the links among all
+                              things. They believe there are few coincidences and that almost every event has meaning.</p>
+                          </div>
+                          <!-- /Skill 2 -->
+
+                          <!-- Skill 3 -->
+                          <div class="clearfix mb-2">
+                            <h4>Intellection</h4>
+                            <p>People exceptionally talented in the Intellection theme are characterized by their intellectual activity. They are introspective and appreciate intellectual discussions. </p>
+                          </div>
+                          <!-- /Skill 3 -->
+                          
+                          <!-- Skill 4 -->
+                          <div class="clearfix mb-2">
+                            <h4>Strategic</h4>
+                            <p>People exceptionally talented in the Strategic theme create alternative ways to proceed. Faced with any given scenario, they can quickly spot the relevant patterns and issues.</p>
+                          </div>
+                          <!-- /Skill 4 -->
+
+                          <!-- Skill 5 -->
+                          <div class="clearfix mb-2">
+                            <h4>Relator</h4>
+                            <p>People exceptionally talented in the Relator theme enjoy close relationships with others. They find deep satisfaction in working hard with friends to achieve a goal.</p>
+                          </div>
+                          <!-- /Skill 5 -->
+                          <footer class="blockquote-footer">Source: <cite title="Source Title"><a href="https://www.purdue.edu/vpsl/leadership/myStrengths/Strengths_QuickRefCard_en-US_0314v5_bk.pdf" target="_blank">Gallup CliftonStrengths® Themes</a></cite></footer>
+                        </div>
+
+                        <div class="block-title ts-10">
+                          <h3>Technical Skills<span></span></h3>
+                        </div>
+
+
+                        <div class="skills-info skills-second-style">
+                          <!-- Skill 5 -->
+                          <div class="clearfix">
+                            <h4>WordPress</h4>
+                            <h4>PHP</h4>
+                            <h4>JavaScript</h4>
+                            <h4>JQuery</h4>
+                            <h4>CSS</h4>
+                            <h4>Git</h4>
+                            <h4>MySQL</h4>
+                            <h4>Ruby on Rails</h4>
+                            <h4>Sass</h4>
+                            <h4>HTML Banner Ads</h4>
+                            <h4>Atlassian Tools</h4>
+                            <h4>WP Managed Hosting: WP Engine and Flywheel</h4>
+                          </div>
+  
+                          <!-- /Skill 5 -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </section>
+            <!-- End of Resume Subpage -->
+
+
+            <!-- Portfolio Subpage -->
+            <section class="pt-page" id="portfolio">
+              <div class="section-inner custom-page-content">
+                <div class="section-title-block second-style">
+                  <h2 class="section-title">Portfolio</h2>
+                  <h5 class="section-description">My Works</h5>
+                </div>
+          
+                <div class="section-content">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <!-- Portfolio Content -->
+                      <div class="portfolio-content">
+
+                        <ul class="portfolio-filters">
+                          <li class="active">
+                            <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_apps">Applications</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_wp">WordPress Development</a>
+                          </li>
+                        </ul>
+
+                        <!-- Portfolio Grid -->
+                        <div class="portfolio-grid three-columns">
+                          
+                          <figure class="item standard" data-groups='["category_all", "category_apps"]'>
+                            <div class="portfolio-item-img shadow">
+                              <img src="images/portfolio/aejs-index.jpg" alt="Anomalous Encounters JS Project" />
+                              <a href="anomalous-encounters.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="fab fa-js"></i>
+                            <h4 class="name">Anomalous Encounters</h4>
+                            <span class="category">JAVASCRIPT // RAILS</span>
+                          </figure>
+
+                          <figure class="item lbvideo" data-groups='["category_all", "category_apps"]'>
+                            <div class="portfolio-item-img shadow">
+                              <img src="images/portfolio/earlybird-homepage.jpg" alt="Earlybird.io" title="" />
+                              <a href="earlybird.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="fab fa-react"></i>
+                            <h4 class="name">earlybird.io</h4>
+                            <span class="category">REACT // REDUX // RAILS API</span>
+                          </figure>
+
+                          <figure class="item lbvideo" data-groups='["category_all", "category_apps"]'>
+                            <div class="portfolio-item-img shadow">
+                              <img src="images/portfolio/dc-signup.jpg" alt="Dream Catcher signup" />
+                              <a href="dream-catcher.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="fas fa-gem"></i>
+                            <h4 class="name">Dream Catcher</h4>
+                            <span class="category">SINATRA // NOKOGIRI // SQLITE</span>
+                          </figure>
+
+                          <figure class="item lbvideo" data-groups='["category_all", "category_apps"]'>
+                            <div class="portfolio-item-img shadow">
+                              <img src="images/portfolio/on-tap.png" alt="On Tap IBC CLI" />
+                              <a href="on-tap.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="fas fa-gem"></i>
+                            <h4 class="name">On Tap at Ithaca Beer Company</h4>
+                            <span class="category">RUBY // NOKOGIRI</span>
+                          </figure>
+
+                          <figure class="item lbvideo" data-groups='["category_all", "category_wp"]'>
+                            <div class="portfolio-item-img shadow">
+                              <img src="images/portfolio/elevate-home.png" alt="Elevate Healing Arts homepage" />
+                              <a href="elevate-healing.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="fab fa-wordpress-simple"></i>
+                            <h4 class="name">Elevate Healing Arts</h4>
+                            <span class="category">WP Theme Development // Maintenance & Support</span>
+                          </figure>
+
+                          <figure class="item lbvideo" data-groups='["category_all", "category_wp"]'>
+                            <div class="portfolio-item-img shadow">
+                              <img src="images/portfolio/premed.png" alt="The Mentoring Alliance homepage" />
+                              <a href="premed.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="fab fa-wordpress-simple"></i>
+                            <h4 class="name">The Mentoring Alliance</h4>
+                            <span class="category">WP Theme Development // Support</span>
+                          </figure>
+
+                          <figure class="item lbvideo" data-groups='["category_all", "category_wp"]'>
+                            <div class="portfolio-item-img shadow">
+                              <img src="images/portfolio/everyday-sacredness-about.png" alt="Everyday Sacredness About" />
+                              <a href="everyday-sacredness.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="fab fa-wordpress-simple"></i>
+                            <h4 class="name">Everyday Sacredness</h4>
+                            <span class="category">WP Theme Development // Acuity Scheduling Integration</span>
+                          </figure>
+
+                          <figure class="item lbvideo" data-groups='["category_all", "category_wp"]'>
+                            <div class="portfolio-item-img shadow">
+                              <img src="images/portfolio/know-ron.png" alt="Everybody Knows Ron home" />
+                              <a href="know-ron.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="fab fa-wordpress-simple"></i>
+                            <h4 class="name">Everybody Knows Ron</h4>
+                            <span class="category">WordPress & WooCommerce Integration</span>
+                          </figure>
+
+                          <figure class="item lbvideo" data-groups='["category_all", "category_wp"]'>
+                            <div class="portfolio-item-img shadow">
+                              <img src="images/portfolio/urban.png" alt="Urban Insulation Corp home" />
+                              <a href="urban-insulation.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="fab fa-wordpress-simple"></i>
+                            <h4 class="name">Urban Insulation Corp</h4>
+                            <span class="category">WordPress // Reputation Management // Ongoing Maintenance & Support</span>
+                          </figure>
+
+                          
+                        </div>
+                      </div>
+                      <!-- /Portfolio Content -->
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </section>
+            <!-- /Portfolio Subpage -->
+
+            <!-- Contact Subpage -->
+            <section class="pt-page" id="contact">
+              <div class="section-inner custom-page-content">
+                <div class="section-title-block second-style">
+                  <h2 class="section-title">Contact</h2>
+                  <h5 class="section-description">Get in Touch</h5>
+                </div>
+                <!-- Contact Info -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-4">
+                    <div class="col-inner bs-30">
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-map-marker"></i>
+                        <h4>Buffalo, NY</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-4">
+                    <div class="col-inner bs-30">
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-envelope"></i>
+                        <h4>lauradarlak@gmail.com</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-4">
+                    <div class="col-inner bs-30">
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-checkmark-circle"></i>
+                        <h4>Available for WordPress Consulting</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <img class="img-fluid" src="contact-footer.jpg" alt="">
+                </div>
+                <!-- /Contact Info -->
+              </div>
+            </section>
+            <!-- End Contact Subpage -->
+          </div>
+        </div>
+        <!-- /Page changer wrapper -->
+      </div>
+      <!-- /Main Content -->
+    </div>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.malihu.PageScroll2id.min.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.googlemap.js"></script>
+    <script src="js/validator.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY"></script>-->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
